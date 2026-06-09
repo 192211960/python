@@ -1,0 +1,7 @@
+n1=float(input("enter the number1: "))
+n2=float(input("enter the number2: "))
+if n2==0:
+    print("division by zero is not allowed")
+else:
+    division=n1/n2
+    print(f"division is {division}")
